@@ -1,23 +1,23 @@
 # TodoApp Redux
 
-TodoApp Redux là một ứng dụng quản lý công việc đơn giản, được xây dựng bằng Redux và React. Ứng dụng cho phép người dùng thêm, sửa đổi và xóa các công việc trong danh sách. TodoApp Redux được thiết kế để hiển thị một danh sách các công việc được phân loại theo trạng thái, bao gồm các trạng thái "Cao", "Trung bình" và "Thấp".
+TodoApp Redux is a simple task management application, built using Redux and React. The application allows users to add, modify and delete tasks in the list. TodoApp Redux is designed to display a list of jobs categorized by status, including "High", "Medium" and "Low" states.
 
-![Giao diện TodoApp Redux](./src/assets/Capture.PNG)
+![TodoApp Redux Interface](./src/assets/Capture.PNG)
 
-## Hướng dẫn cài đặt
+## Installation Instructions
 
-Để cài đặt TodoApp Redux, bạn cần thực hiện các bước sau:
+To install TodoApp Redux, you need to do the following steps:
 
-1. Clone dự án này từ GitHub về máy của bạn bằng lệnh: `git clone <đường dẫn đến repo>`
-2. Mở terminal và chạy lệnh `npm install` để cài đặt các dependencies.
-3. Chạy lệnh `npm run dev` để khởi động ứng dụng.
+1. Clone this project from GitHub to your machine with the command: `git clone <path to repo>`
+2. Open terminal and run command `npm install` to install dependencies.
+3. Run the command `npm run dev` to start the application.
 
-## Tính năng
+## Feature
 
-TodoApp Redux cung cấp các tính năng sau:
+TodoApp Redux offers the following features:
 
-- Thêm công việc mới vào danh sách
-- Chỉnh sửa nội dung công việc
-- Xóa công việc
-- Phân loại công việc theo trạng thái "Chưa hoàn thành", "Đang thực hiện" và "Đã hoàn thành"
-- Lưu trữ dữ liệu công việc bằng Redux
+- Add new job to the list
+- Editing job content
+- Delete job
+- Categorize work by status "Incomplete", "In progress" and "Completed"
+- Storing job data using Redux
